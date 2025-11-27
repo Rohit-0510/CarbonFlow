@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Database
+data/db
+data/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage
+
+# Production
+dist
+build
+
+# Misc
+.DS_Store
+.vscode
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

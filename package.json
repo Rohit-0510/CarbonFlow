@@ -1,0 +1,12 @@
+{
+    "name": "carbonflow",
+    "version": "1.0.0",
+    "description": "Carbon Footprint Tracker",
+    "scripts": {
+        "start": "concurrently \"mongod --dbpath ./data/db --port 27017 --bind_ip 127.0.0.1\" \"npm run start --prefix server\" \"npm run dev --prefix client\"",
+        "install-all": "npm install --prefix server && npm install --prefix client"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
+}
